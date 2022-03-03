@@ -1,0 +1,49 @@
+table{
+    border-collapse: separate;
+    
+}
+th{
+    background-color: aquamarine;
+    
+}
+td{
+    background-color: burlywood;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+h2{
+    text-align: center;
+    border-bottom: solid black 5px;
+}
+body{
+    margin:0;
+    min-height: 100vh;
+    background-image: url(https://bolavip.com/__export/1609948024943/sites/bolavip/img/2021/01/06/shingeki_no_kyojin_se_filtra_posible_final_de_levi_ackerman_crop1609948023047.jpg_412320734.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+body:before{
+    content:"";
+    width: 100%;
+    min-height: 750vh;
+    position: absolute;
+    top: 0;
+    left:0;
+    background: linear-gradient(90deg,rgb(119, 247, 225),rgb(248, 118, 66));
+    opacity: 0.7;
+    z-index:-1;
+
+}
+h1{
+    color: red;
+}
